@@ -28,7 +28,9 @@ export default function Home() {
         </div>
         <div id="task-wrapper" className={`${style.taskWrapper}`}>
           <ul id="task-list" className={style.taskList}>
-            <li className={`${style.list} ${style.borderRadius2px} ${style.mt1}`}>
+            <li
+              className={`${style.list} ${style.flex} ${style.alignItemsCenter} ${style.borderRadius2px} ${style.mt07} ${style.pointer}`}
+            >
               <input type="checkbox" className={style.m1} />
               <span className={style.m1}>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -37,7 +39,9 @@ export default function Home() {
               <FontAwesomeIcon icon={faEdit} />
               <FontAwesomeIcon icon={faTrashAlt} className={style.m1} />
             </li>
-            <li className={`${style.list} ${style.borderRadius2px} ${style.mt1}`}>
+            <li
+              className={`${style.list} ${style.flex} ${style.alignItemsCenter} ${style.borderRadius2px} ${style.mt07} ${style.pointer}`}
+            >
               <input type="checkbox" className={style.m1} />
               <span className={style.m1}>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -50,6 +54,10 @@ export default function Home() {
               <FontAwesomeIcon icon={faTrashAlt} className={style.m1} />
             </li>
           </ul>
+          <div className={`${style.flex} ${style.alignItemsCenter} ${style.justifyBetween} ${style.mt07} ${style.totalWrapper}`}>
+            <span>Total: 5</span>
+            <button className={`${style.clearBtn} ${style.borderRadius2px} ${style.pointer}`}>Clear All</button>
+          </div>
         </div>
       </div>
     </div>
