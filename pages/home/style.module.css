@@ -16,6 +16,10 @@
   margin-top: 3em;
 }
 
+.mx1 { 
+  margin: 0 1em;
+}
+
 /* border */
 .borderRadius8px {
   border-radius: 8px;
@@ -75,6 +79,19 @@
 /* .inputField::placeholder { 
   padding:1em;
 } */
+
+/* filter */
+.filterBtn { 
+  border: 2px solid #00CED1;
+  color: #00CED1;
+  background-color: white;
+  padding: 0.5em;
+}
+
+.filterBtn:hover { 
+  background-color: #00CED1;
+  color:white;
+}
 
 /* task */
 .taskWrapper {

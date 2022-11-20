@@ -26,6 +26,11 @@ export default function Home() {
             placeholder="Add a Text"
           />
         </div>
+        <div className={`${style.flex} ${style.alignItemsCenter} ${style.mt07} ${style.totalWrapper}`}>
+            <button className={`${style.filterBtn} ${style.borderRadius2px} ${style.pointer}`}>All</button>
+            <button className={`${style.filterBtn} ${style.borderRadius2px} ${style.mx1} ${style.pointer}`}>Pending</button>
+            <button className={`${style.filterBtn} ${style.borderRadius2px} ${style.pointer}`}>Completed</button>
+          </div>
         <div id="task-wrapper" className={`${style.taskWrapper}`}>
           <ul id="task-list" className={style.taskList}>
             <li
